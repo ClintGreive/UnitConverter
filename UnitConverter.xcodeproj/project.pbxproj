@@ -13,6 +13,7 @@
 		26A3463519D0D65400B4CF1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A3463419D0D65400B4CF1F /* Images.xcassets */; };
 		26A3463819D0D65400B4CF1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A3463619D0D65400B4CF1F /* LaunchScreen.xib */; };
 		26A3464419D0D65400B4CF1F /* UnitConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A3464319D0D65400B4CF1F /* UnitConverterTests.swift */; };
+		26A3464E19D0D78800B4CF1F /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26A3464D19D0D78800B4CF1F /* bg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		26A3463D19D0D65400B4CF1F /* UnitConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A3464219D0D65400B4CF1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26A3464319D0D65400B4CF1F /* UnitConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverterTests.swift; sourceTree = "<group>"; };
+		26A3464D19D0D78800B4CF1F /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		26A3462B19D0D65400B4CF1F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				26A3464D19D0D78800B4CF1F /* bg.jpg */,
 				26A3462C19D0D65400B4CF1F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +198,7 @@
 				26A3463319D0D65400B4CF1F /* Main.storyboard in Resources */,
 				26A3463819D0D65400B4CF1F /* LaunchScreen.xib in Resources */,
 				26A3463519D0D65400B4CF1F /* Images.xcassets in Resources */,
+				26A3464E19D0D78800B4CF1F /* bg.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				26A3464919D0D65400B4CF1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26A3464A19D0D65400B4CF1F /* Build configuration list for PBXNativeTarget "UnitConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				26A3464C19D0D65400B4CF1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
