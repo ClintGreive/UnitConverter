@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  UnitConverter
 //
-//  Created by Clint Greive on 23/09/2014.
+//  Created by Clint Greive on 26/09/2014.
 //  Copyright (c) 2014 Clint Greive. All rights reserved.
 //
 
@@ -30,31 +30,25 @@ class ViewController: UIViewController {
     // IBActions
     // Fahrenheit to Celsius Button
     @IBAction func convertButtonPressed(sender: UIButton) {
-/*
-        // Fahrenheit to Celsius
-        // convert string into integer for calculation and back to string
-        let tempFromFahrenheitInputTextField = fahrenheitInputTextField.text
-        let numberFromFahrenheitInputTextField = tempFromFahrenheitInputTextField.toInt() // Int optional function
-        var integerFromFahrenheitInputTextField = numberFromFahrenheitInputTextField! // exclamation
+
+/*      let tempFromFahrenheitInputTextField = fahrenheitInputTextField.text
+        let numberFromFahrenheitInputTextField = tempFromFahrenheitInputTextField.toInt()
+        var integerFromFahrenheitInputTextField = numberFromFahrenheitInputTextField!
         let toCelsiusconversionConstant = -15
-        integerFromFahrenheitInputTextField += toCelsiusconversionConstant // assign textfield to converted integer
+        integerFromFahrenheitInputTextField += toCelsiusconversionConstant
         
-        // convert integer back into string
         let stringWithUpdatedCelsiusTemp = "\(integerFromFahrenheitInputTextField)" + " degrees °C"
         celsiusResultLabel.text = stringWithUpdatedCelsiusTemp
 
-        
-        // refactored code achieves the same result as above 7 lines of code
-        celsiusResultLabel.text = "\(fahrenheitInputTextField.text.toInt()! - 32)" + " degrees °C"
-*/
-        
+        // refactored
+        celsiusResultLabel.text = "\(fahrenheitInputTextField.text.toInt()! - 32)" + " degrees °C" */
+
         // Fahrenheit to Celsius
         // convert string into integer for calculation and back to string
         let temperatureFromFahrenheitInputTextField = Double((fahrenheitInputTextField.text as NSString).doubleValue)
-        let toCelsiusConversionConstant = (((temperatureFromFahrenheitInputTextField - 32) * 0.5556) - temperatureFromFahrenheitInputTextField)
-        celsiusResultLabel.text = "\(temperatureFromFahrenheitInputTextField + toCelsiusConversionConstant)" + " degrees °C"
+        let toCelsiusConversionConstant = ((temperatureFromFahrenheitInputTextField - 32) * 0.5556)
+        celsiusResultLabel.text = "\(toCelsiusConversionConstant)" + " degrees °C"
         
-        // asthetic code to evaluate
         celsiusResultLabel.hidden = false
         celsiusResultLabel.textColor = UIColor.whiteColor()
         fahrenheitInputTextField.resignFirstResponder()
@@ -65,13 +59,10 @@ class ViewController: UIViewController {
     // Celsius to Fahrenheit Button
     @IBAction func convertToFahrenheitButtonPressed(sender: UIButton) {
         
-        // Celsius to Fahrenheit
-        // convert string into integer for calculation and back to string
         let temperatureFromCelsiusInputTextField = Double((celsiusInputTextField.text as NSString).doubleValue)
-        let toFahrenheitConversionConstant = (((temperatureFromCelsiusInputTextField * 1.8) + 32) - temperatureFromCelsiusInputTextField)
-        fahrenheitResultLable.text = "\(temperatureFromCelsiusInputTextField + toFahrenheitConversionConstant)" + " degrees °F"
+        let toFahrenheitConversionConstant = ((temperatureFromCelsiusInputTextField * 1.8) + 32)
+        fahrenheitResultLable.text = "\(toFahrenheitConversionConstant)" + " degrees °F"
         
-        // asthetic code to evaluate
         fahrenheitResultLable.hidden = false
         fahrenheitResultLable.textColor = UIColor.whiteColor()
         celsiusInputTextField.resignFirstResponder()

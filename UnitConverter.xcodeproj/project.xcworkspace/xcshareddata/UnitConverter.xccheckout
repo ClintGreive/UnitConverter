@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F4C3E63B-268A-47DD-9711-23ED93341548</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UnitConverter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5B8B01B146BCAE401B4E08FB69FCBE460352B78C</key>
+		<string>https://github.com/ClintGreive/UnitConverter</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UnitConverter.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5B8B01B146BCAE401B4E08FB69FCBE460352B78C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ClintGreive/UnitConverter</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5B8B01B146BCAE401B4E08FB69FCBE460352B78C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5B8B01B146BCAE401B4E08FB69FCBE460352B78C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UnitConverter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
